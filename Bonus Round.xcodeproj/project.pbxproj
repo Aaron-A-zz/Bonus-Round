@@ -13,6 +13,7 @@
 		2187860D1ADAE1DA00F4F41F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187860C1ADAE1DA00F4F41F /* Images.xcassets */; };
 		218786101ADAE1DA00F4F41F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2187860E1ADAE1DA00F4F41F /* LaunchScreen.xib */; };
 		2187861C1ADAE1DA00F4F41F /* Bonus_RoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187861B1ADAE1DA00F4F41F /* Bonus_RoundTests.swift */; };
+		218786261ADAEF8D00F4F41F /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218786251ADAEF8D00F4F41F /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		218786151ADAE1DA00F4F41F /* Bonus RoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bonus RoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2187861A1ADAE1DA00F4F41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2187861B1ADAE1DA00F4F41F /* Bonus_RoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonus_RoundTests.swift; sourceTree = "<group>"; };
+		218786251ADAEF8D00F4F41F /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				218786051ADAE1DA00F4F41F /* AppDelegate.swift */,
 				218786071ADAE1DA00F4F41F /* ViewController.swift */,
 				218786091ADAE1DA00F4F41F /* Main.storyboard */,
+				218786251ADAEF8D00F4F41F /* SpringAnimation.swift */,
 				2187860C1ADAE1DA00F4F41F /* Images.xcassets */,
 				2187860E1ADAE1DA00F4F41F /* LaunchScreen.xib */,
 				218786031ADAE1DA00F4F41F /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218786261ADAEF8D00F4F41F /* SpringAnimation.swift in Sources */,
 				218786081ADAE1DA00F4F41F /* ViewController.swift in Sources */,
 				218786061ADAE1DA00F4F41F /* AppDelegate.swift in Sources */,
 			);

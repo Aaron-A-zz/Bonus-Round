@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bonus_Round" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,91 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WYN-lx-ROK">
+                                <rect key="frame" x="276" y="284" width="51" height="31"/>
+                                <connections>
+                                    <action selector="ninjaSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="FYa-54-wTt"/>
+                                </connections>
+                            </switch>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="umO-xT-tY2">
+                                <rect key="frame" x="225" y="442" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="wLA-H7-0vA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="90Right" translatesAutoresizingMaskIntoConstraints="NO" id="p2T-rK-Yur">
+                                <rect key="frame" x="434" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="WsL-uQ-hLF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upsidedown" translatesAutoresizingMaskIntoConstraints="NO" id="cxZ-8B-ZEs">
+                                <rect key="frame" x="225" y="20" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="4ms-11-W2S"/>
+                                    <constraint firstAttribute="height" constant="150" id="b0Y-1O-gNO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="90Left" translatesAutoresizingMaskIntoConstraints="NO" id="lKl-25-evW">
+                                <rect key="frame" x="16" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="vIl-0Y-JVg"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ninjas!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPu-Tl-ccq">
+                                <rect key="frame" x="276" y="225" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="They're everywhere" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y41-ad-Hj7">
+                                <rect key="frame" x="228" y="354" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lKl-25-evW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4aY-lM-0Wl"/>
+                            <constraint firstItem="vPu-Tl-ccq" firstAttribute="leading" secondItem="WYN-lx-ROK" secondAttribute="leading" id="BGe-Qh-Aqt"/>
+                            <constraint firstItem="p2T-rK-Yur" firstAttribute="bottom" secondItem="lKl-25-evW" secondAttribute="bottom" id="BLb-VO-1he"/>
+                            <constraint firstItem="p2T-rK-Yur" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Gvq-jn-g0L"/>
+                            <constraint firstItem="p2T-rK-Yur" firstAttribute="top" secondItem="lKl-25-evW" secondAttribute="top" id="HAY-js-SR5"/>
+                            <constraint firstItem="umO-xT-tY2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IdX-1V-WBR"/>
+                            <constraint firstItem="cxZ-8B-ZEs" firstAttribute="leading" secondItem="umO-xT-tY2" secondAttribute="leading" id="JMq-lN-ckV"/>
+                            <constraint firstItem="Y41-ad-Hj7" firstAttribute="centerX" secondItem="vPu-Tl-ccq" secondAttribute="centerX" id="Jqf-m4-5Z6"/>
+                            <constraint firstItem="vPu-Tl-ccq" firstAttribute="top" secondItem="p2T-rK-Yur" secondAttribute="top" id="Vvo-30-WE3"/>
+                            <constraint firstItem="Y41-ad-Hj7" firstAttribute="bottom" secondItem="p2T-rK-Yur" secondAttribute="bottom" id="bJK-xf-AhU"/>
+                            <constraint firstItem="WYN-lx-ROK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="284" id="cFu-Mf-8wf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="umO-xT-tY2" secondAttribute="bottom" constant="8" symbolic="YES" id="dfQ-Sm-jL5"/>
+                            <constraint firstItem="lKl-25-evW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="205" id="fSI-N7-Mct"/>
+                            <constraint firstItem="cxZ-8B-ZEs" firstAttribute="trailing" secondItem="umO-xT-tY2" secondAttribute="trailing" id="kN4-hT-pn4"/>
+                            <constraint firstItem="cxZ-8B-ZEs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kpI-qT-CP4"/>
+                            <constraint firstItem="lKl-25-evW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qwi-Pd-ndC"/>
+                            <constraint firstItem="cxZ-8B-ZEs" firstAttribute="centerX" secondItem="WYN-lx-ROK" secondAttribute="centerX" id="xd0-6q-3Wj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="SwitchButton" destination="WYN-lx-ROK" id="xXB-mG-rnT"/>
+                        <outlet property="ninjaViewEast" destination="p2T-rK-Yur" id="QwJ-Cg-lxl"/>
+                        <outlet property="ninjaViewNorth" destination="cxZ-8B-ZEs" id="Ndr-yv-di0"/>
+                        <outlet property="ninjaViewSouth" destination="umO-xT-tY2" id="6Go-zD-Grc"/>
+                        <outlet property="ninjaViewWest" destination="lKl-25-evW" id="7CS-v5-7YU"/>
+                        <outlet property="ninjasLabelOne" destination="vPu-Tl-ccq" id="aqy-R3-AtJ"/>
+                        <outlet property="ninjasLabelTwo" destination="Y41-ad-Hj7" id="Lag-aX-jHS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="409" y="42"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="0" width="123" height="112"/>
+        <image name="90Left" width="112" height="123"/>
+        <image name="90Right" width="112" height="123"/>
+        <image name="upsidedown" width="123" height="112"/>
+    </resources>
 </document>
