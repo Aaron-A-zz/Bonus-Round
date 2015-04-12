@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218786061ADAE1DA00F4F41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218786051ADAE1DA00F4F41F /* AppDelegate.swift */; };
+		218786081ADAE1DA00F4F41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218786071ADAE1DA00F4F41F /* ViewController.swift */; };
+		2187860B1ADAE1DA00F4F41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218786091ADAE1DA00F4F41F /* Main.storyboard */; };
+		2187860D1ADAE1DA00F4F41F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187860C1ADAE1DA00F4F41F /* Images.xcassets */; };
+		218786101ADAE1DA00F4F41F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2187860E1ADAE1DA00F4F41F /* LaunchScreen.xib */; };
+		2187861C1ADAE1DA00F4F41F /* Bonus_RoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187861B1ADAE1DA00F4F41F /* Bonus_RoundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218786161ADAE1DA00F4F41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218785F81ADAE1DA00F4F41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218785FF1ADAE1DA00F4F41F;
+			remoteInfo = "Bonus Round";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218786001ADAE1DA00F4F41F /* Bonus Round.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonus Round.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218786041ADAE1DA00F4F41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218786051ADAE1DA00F4F41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		218786071ADAE1DA00F4F41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2187860A1ADAE1DA00F4F41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2187860C1ADAE1DA00F4F41F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2187860F1ADAE1DA00F4F41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		218786151ADAE1DA00F4F41F /* Bonus RoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bonus RoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2187861A1ADAE1DA00F4F41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2187861B1ADAE1DA00F4F41F /* Bonus_RoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonus_RoundTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218785FD1ADAE1DA00F4F41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218786121ADAE1DA00F4F41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218785F71ADAE1DA00F4F41F = {
+			isa = PBXGroup;
+			children = (
+				218786021ADAE1DA00F4F41F /* Bonus Round */,
+				218786181ADAE1DA00F4F41F /* Bonus RoundTests */,
+				218786011ADAE1DA00F4F41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218786011ADAE1DA00F4F41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218786001ADAE1DA00F4F41F /* Bonus Round.app */,
+				218786151ADAE1DA00F4F41F /* Bonus RoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218786021ADAE1DA00F4F41F /* Bonus Round */ = {
+			isa = PBXGroup;
+			children = (
+				218786051ADAE1DA00F4F41F /* AppDelegate.swift */,
+				218786071ADAE1DA00F4F41F /* ViewController.swift */,
+				218786091ADAE1DA00F4F41F /* Main.storyboard */,
+				2187860C1ADAE1DA00F4F41F /* Images.xcassets */,
+				2187860E1ADAE1DA00F4F41F /* LaunchScreen.xib */,
+				218786031ADAE1DA00F4F41F /* Supporting Files */,
+			);
+			path = "Bonus Round";
+			sourceTree = "<group>";
+		};
+		218786031ADAE1DA00F4F41F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				218786041ADAE1DA00F4F41F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		218786181ADAE1DA00F4F41F /* Bonus RoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				2187861B1ADAE1DA00F4F41F /* Bonus_RoundTests.swift */,
+				218786191ADAE1DA00F4F41F /* Supporting Files */,
+			);
+			path = "Bonus RoundTests";
+			sourceTree = "<group>";
+		};
+		218786191ADAE1DA00F4F41F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2187861A1ADAE1DA00F4F41F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218785FF1ADAE1DA00F4F41F /* Bonus Round */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2187861F1ADAE1DA00F4F41F /* Build configuration list for PBXNativeTarget "Bonus Round" */;
+			buildPhases = (
+				218785FC1ADAE1DA00F4F41F /* Sources */,
+				218785FD1ADAE1DA00F4F41F /* Frameworks */,
+				218785FE1ADAE1DA00F4F41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bonus Round";
+			productName = "Bonus Round";
+			productReference = 218786001ADAE1DA00F4F41F /* Bonus Round.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218786141ADAE1DA00F4F41F /* Bonus RoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218786221ADAE1DA00F4F41F /* Build configuration list for PBXNativeTarget "Bonus RoundTests" */;
+			buildPhases = (
+				218786111ADAE1DA00F4F41F /* Sources */,
+				218786121ADAE1DA00F4F41F /* Frameworks */,
+				218786131ADAE1DA00F4F41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218786171ADAE1DA00F4F41F /* PBXTargetDependency */,
+			);
+			name = "Bonus RoundTests";
+			productName = "Bonus RoundTests";
+			productReference = 218786151ADAE1DA00F4F41F /* Bonus RoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218785F81ADAE1DA00F4F41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aaron Ackerman";
+				TargetAttributes = {
+					218785FF1ADAE1DA00F4F41F = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					218786141ADAE1DA00F4F41F = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 218785FF1ADAE1DA00F4F41F;
+					};
+				};
+			};
+			buildConfigurationList = 218785FB1ADAE1DA00F4F41F /* Build configuration list for PBXProject "Bonus Round" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 218785F71ADAE1DA00F4F41F;
+			productRefGroup = 218786011ADAE1DA00F4F41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218785FF1ADAE1DA00F4F41F /* Bonus Round */,
+				218786141ADAE1DA00F4F41F /* Bonus RoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218785FE1ADAE1DA00F4F41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2187860B1ADAE1DA00F4F41F /* Main.storyboard in Resources */,
+				218786101ADAE1DA00F4F41F /* LaunchScreen.xib in Resources */,
+				2187860D1ADAE1DA00F4F41F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218786131ADAE1DA00F4F41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218785FC1ADAE1DA00F4F41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218786081ADAE1DA00F4F41F /* ViewController.swift in Sources */,
+				218786061ADAE1DA00F4F41F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218786111ADAE1DA00F4F41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2187861C1ADAE1DA00F4F41F /* Bonus_RoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218786171ADAE1DA00F4F41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218785FF1ADAE1DA00F4F41F /* Bonus Round */;
+			targetProxy = 218786161ADAE1DA00F4F41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		218786091ADAE1DA00F4F41F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2187860A1ADAE1DA00F4F41F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2187860E1ADAE1DA00F4F41F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2187860F1ADAE1DA00F4F41F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2187861D1ADAE1DA00F4F41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2187861E1ADAE1DA00F4F41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218786201ADAE1DA00F4F41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bonus Round/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		218786211ADAE1DA00F4F41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bonus Round/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		218786231ADAE1DA00F4F41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bonus RoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonus Round.app/Bonus Round";
+			};
+			name = Debug;
+		};
+		218786241ADAE1DA00F4F41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bonus RoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonus Round.app/Bonus Round";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218785FB1ADAE1DA00F4F41F /* Build configuration list for PBXProject "Bonus Round" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2187861D1ADAE1DA00F4F41F /* Debug */,
+				2187861E1ADAE1DA00F4F41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2187861F1ADAE1DA00F4F41F /* Build configuration list for PBXNativeTarget "Bonus Round" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218786201ADAE1DA00F4F41F /* Debug */,
+				218786211ADAE1DA00F4F41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		218786221ADAE1DA00F4F41F /* Build configuration list for PBXNativeTarget "Bonus RoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218786231ADAE1DA00F4F41F /* Debug */,
+				218786241ADAE1DA00F4F41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 218785F81ADAE1DA00F4F41F /* Project object */;
+}
